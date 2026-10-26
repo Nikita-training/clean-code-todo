@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "lint": "eslint .",
-    "format": "prettier --check ."
+    "format": "prettier --check .",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
