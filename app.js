@@ -31,11 +31,7 @@ const createTaskElement = function (taskText) {
   deleteButtonImg.src = "./remove.svg";
   deleteButton.appendChild(deleteButtonImg);
 
-  taskElement.appendChild(checkBox);
-  taskElement.appendChild(label);
-  taskElement.appendChild(editInput);
-  taskElement.appendChild(editButton);
-  taskElement.appendChild(deleteButton);
+  taskElement.append(checkBox, label, editInput, editButton, deleteButton);
   return taskElement;
 };
 
